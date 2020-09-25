@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog de Notícias [INFOWEB]</title>
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/blog.css">
 </head>
 
 <body>
@@ -17,76 +18,30 @@
     </div>
     <!-- Fim do cabeçalho do site -->
 
-    <!-- Início do conteúdo do nosso site -->
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-sm-6 col-md-6">
-                <h1 class="text-primary">Notícia Principal</h1>
-                <img class="img-fluid" src="img/image.png" alt="Image">
-                <p class="text-dark text-justify">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente aperiam architecto molestias neque ratione iure ipsam repellat maiores laborum nihil quam quibusdam, consequuntur, animi voluptas quas esse vero illo unde?
-                </p>
-            </div>
-            <div class="col-12 col-sm-6 col-md-6 mt-2">
-                <div class="row mt-5">
-                    <div class="col-12 col-sm-6 col-md-5">
-                        <img class="img-fluid" src="img/image.png" alt="Image">
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-7">
-                        <h2 class="text-primary">Notícias</h2>
-                        <p class="text-dark text-justify">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae, ratione ad. Placeat mollitia pariatur consequatur nulla.
-                        </p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 col-sm-6 col-md-5">
-                        <img class="img-fluid" src="img/image.png" alt="Image">
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-7">
-                        <h2 class="text-primary">Notícias</h2>
-                        <p class="text-dark text-justify">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae, ratione ad. Placeat mollitia pariatur consequatur nulla.
-                        </p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 col-sm-6 col-md-5">
-                        <img class="img-fluid" src="img/image.png" alt="Image">
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-7">
-                        <h2 class="text-primary">Notícias</h2>
-                        <p class="text-dark text-justify">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae, ratione ad. Placeat mollitia pariatur consequatur nulla.
-                        </p>
-                    </div>
-                </div>
-            </div>
+    <!-- Início do menu do Blog -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary mt-n5 border-top border-white">
+        <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="my-nav" class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a href="src/noticia/visao/first-noticia.html" class="nav-link text-white">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="src/noticia/visao/all-noticia.html" class="nav-link text-white">Notícias</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="src/contato/visao/form-contato.html">Contato</a>
+                </li>
+            </ul>
         </div>
+    </nav>
+    <!-- Fim do menu do Blog -->
 
-        <div class="row mt-3">
-            <div class="col-12 border-top">
-                <h3 class="text-primary mt-2">Patrocinadores</h3>
-            </div>
-            <div class="col-6 col-sm-4 col-md-2 mt-2">
-                <img class="img-thumbnail" src="img/image.png" alt="Image">
-            </div>
-            <div class="col-6 col-sm-4 col-md-2 mt-2">
-                <img class="img-thumbnail" src="img/image.png" alt="Image">
-            </div>
-            <div class="col-6 col-sm-4 col-md-2 mt-2">
-                <img class="img-thumbnail" src="img/image.png" alt="Image">
-            </div>
-            <div class="col-6 col-sm-4 col-md-2 mt-2">
-                <img class="img-thumbnail" src="img/image.png" alt="Image">
-            </div>
-            <div class="col-6 col-sm-4 col-md-2 mt-2">
-                <img class="img-thumbnail" src="img/image.png" alt="Image">
-            </div>
-            <div class="col-6 col-sm-4 col-md-2 mt-2">
-                <img class="img-thumbnail" src="img/image.png" alt="Image">
-            </div>
-        </div>
+    <!-- Início do conteúdo do nosso site -->
+    <div class="container" id="conteudo">
+
     </div>
     <!-- Fim do conteúdo do nosso site -->
 
@@ -103,6 +58,7 @@
 
     <script src="js/jquery-3.5.1.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script src="js/menu.js"></script>
 </body>
 
 </html>
